@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int Nilai;
+    cout<<"Masukkan nilai   ";
+    cin>>Nilai;
+    if (Nilai>95)
+    {
+        cout<<"Kamu mendapatkan Nilai A";
+    }
+    else if (Nilai>85)
+    {
+        cout<<"Kamu mendapatkan Nilai B";
+    }    
+    else if (Nilai>75)
+    {
+        cout<<"Kamu mendapatkan Nilai C";
+    }
+    else
+    {
+        cout<<"Kamu mendapatkan Nilai D";
+    }
+    return 0;
+}
