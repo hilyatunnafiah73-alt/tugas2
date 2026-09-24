@@ -22,3 +22,38 @@ int main() {
         }
     return 0;
 }
+BAGIAN 3
+
+// Write and run C++ online using this editor.
+#include <iostream>
+using namespace std;
+int main() {
+    string nama [4];
+    int nilai1[4];
+    int nilai2[4];
+    int i;
+    float r;
+    for(i=0;i<4;i++)
+        {
+         cout<<"Masukkan namanya ";
+         cin>>nama[i];
+         cout<<"nilai1 ";
+         cin>>nilai1[i] ;
+         cout<<"nilai2 ";
+         cin>>nilai2[2] ;
+        }
+    for(i=0;i<4;i++)
+        {
+        cout<<"____________________________"<<endl;
+        cout<<"namanya adalah "<<endl;
+        cout<<nama[i] <<endl;
+        cout<<"nilai ";
+        cout<<nilai1[i] <<endl;
+        cout<<"nilai ";
+        cout<<nilai2[i] <<endl;
+        cout<<"rata ratanya adalah"<<endl;
+        r=(nilai1[i]+nilai2[i])/2.0 ;
+        cout<<r <<endl;
+        }
+    return 0;
+}
