@@ -1,0 +1,24 @@
+// Write and run C++ online using this editor.
+#include <iostream>
+using namespace std;
+int main() {
+    string nama [4]={"miko","mila","niken","anjar"};
+    int nilai1[4]={65,78,90,85};
+    int nilai2[4]={76,78,87,98};
+    int i;
+    float r;
+    for(i=0;i<4;i++)
+        {
+        cout<<"____________________________"<<endl;
+        cout<<"namanya adalah "<<endl;
+        cout<<nama[i] <<endl;
+        cout<<"nilai ";
+        cout<<nilai1[i] <<endl;
+        cout<<"nilai ";
+        cout<<nilai2[i] <<endl;
+        cout<<"rata ratanya adalah"<<endl;
+        r=(nilai1[i]+nilai2[i])/2.0 ;
+        cout<<r;
+        }
+    return 0;
+}
