@@ -40,7 +40,7 @@ int main() {
          cout<<"nilai1 ";
          cin>>nilai1[i] ;
          cout<<"nilai2 ";
-         cin>>nilai2[2] ;
+         cin>>nilai2[i] ;
         }
     for(i=0;i<4;i++)
         {
